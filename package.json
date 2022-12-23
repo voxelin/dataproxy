@@ -4,6 +4,7 @@
     "main": "api/index.js",
     "license": "MIT",
     "private": true,
+    "prisma.schema": "./prisma/prisma.schema",
     "scripts": {
         "postinstall": "prisma generate"
     },
