@@ -1,0 +1,17 @@
+{
+    "name": "vercel",
+    "version": "1.0.0",
+    "main": "api/index.js",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "postinstall": "prisma generate"
+    },
+    "dependencies": {
+        "@prisma/client": "^4.8.0",
+        "prisma-data-proxy-alt": "^2.0.2"
+    },
+    "devDependencies": {
+        "prisma": "^4.8.0"
+    }
+}
